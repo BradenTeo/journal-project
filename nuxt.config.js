@@ -11,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'journal-project',
+    title: "Braden's Journal Project",
     htmlAttrs: {
       lang: 'en'
     },
@@ -28,7 +28,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "@/assets/css/main.css"
+    "@/assets/css/main.css",
+    "@/assets/css/other.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

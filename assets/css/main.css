@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 
     font-family: 'Fira Sans', sans-serif;
@@ -8,9 +6,9 @@
 
 .link {
    text-decoration: none;
-   color: crimson; 
+   color: slateblue; 
 }
 
 .link.nuxt-link-exact-active {
-    color: orange;
+    color: indigo;
 }

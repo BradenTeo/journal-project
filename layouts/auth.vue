@@ -1,6 +1,5 @@
 <template>
   <div>
-      <div>Authed</div>
       <nuxt />
   </div>
 </template>

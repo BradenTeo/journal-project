@@ -1,12 +1,16 @@
 <template>
   <div>
-    <Title title="Home" />
-    <nuxt-link to="/about">About</nuxt-link>
-    <a href="http://youtube.com/tylerpotts">tylerpotts' youtube</a>
+    <section>
+      <Title title="Home" style="font-size:20px"/>
+    </section>
+    <section>
+      <h1>Welcome to my site!</h1>
+      <a href="http://youtube.com/tylerpotts">tylerpotts' youtube</a><br>
 
-    {{ $store.state.title }}
+      {{ $store.state.title }}
 
-    <button @click="increment">Increment Me! {{ $store.state.counter }}</button>
+      <button @click="increment">Increment Me! {{ $store.state.counter }}</button>
+    </section>
   </div>
 </template>
 
@@ -20,3 +24,11 @@ export default {
   }
 }
 </script>
+
+<style>
+  section {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+</style>
